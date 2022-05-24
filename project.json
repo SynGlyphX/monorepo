@@ -1,0 +1,45 @@
+{
+  "projectName": "Glyphx",
+  "packages": [
+    {
+      "packageName": "app-nextjs",
+      "templateReference": {
+        "templateName": "app-nextjs"
+      }
+    },
+    {
+      "packageName": "lambda-express",
+      "templateReference": {
+        "templateName": "lambda-express"
+      }
+    },
+    {
+      "packageName": "serverless-api",
+      "templateReference": {
+        "templateName": "serverless-api"
+      }
+    },
+    {
+      "packageName": "s3",
+      "templateReference": {
+        "templateName": "s3"
+      }
+    },
+    {
+      "packageName": "static-website-aws",
+      "templateReference": {
+        "templateName": "static-website-aws"
+      }
+    },
+    {
+      "packageName": "email-send",
+      "templateReference": {
+        "templateName": "email-send"
+      }
+    }
+  ],
+  "rootTemplateReference": {
+    "templateName": "yarn-pnp-monorepo"
+  },
+  "createdAt": "2022-04-22T14:54:00.574Z"
+}

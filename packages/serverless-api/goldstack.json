@@ -1,0 +1,21 @@
+{
+  "$schema": "./schemas/package.schema.json",
+  "name": "serverless-api",
+  "template": "serverless-api",
+  "templateVersion": "0.1.9",
+  "configuration": {},
+  "deployments": [
+    {
+      "name": "dev",
+      "configuration": {
+        "lambdas": {},
+        "lambdaNamePrefix": "sls",
+        "apiDomain": "sls.glyphx.co",
+        "hostedZoneDomain": "glyphx.co",
+        "cors": "https://app.glyphx.co"
+      },
+      "awsUser": "awsUser",
+      "awsRegion": "us-east-1"
+    }
+  ]
+}

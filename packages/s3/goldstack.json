@@ -1,0 +1,17 @@
+{
+  "$schema": "./schemas/package.schema.json",
+  "name": "s3",
+  "template": "s3",
+  "templateVersion": "0.1.59",
+  "configuration": {},
+  "deployments": [
+    {
+      "name": "dev",
+      "configuration": {
+        "bucketName": "startupstak-state"
+      },
+      "awsUser": "awsUser",
+      "awsRegion": "us-east-1"
+    }
+  ]
+}

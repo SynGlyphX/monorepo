@@ -1,0 +1,20 @@
+{
+  "$schema": "./schemas/package.schema.json",
+  "name": "lambda-express",
+  "template": "lambda-express",
+  "templateVersion": "0.1.59",
+  "configuration": {},
+  "deployments": [
+    {
+      "name": "dev",
+      "configuration": {
+        "lambdaName": "backend",
+        "apiDomain": "api.glyphx.co",
+        "hostedZoneDomain": "glyphx.co",
+        "cors": "https://app.glyphx.co"
+      },
+      "awsUser": "awsUser",
+      "awsRegion": "us-east-1"
+    }
+  ]
+}
